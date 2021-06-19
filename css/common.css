@@ -17,7 +17,7 @@ body {
 }
 
 .header .description-bar p {
-    font-size: 5px;
+    font-size: 10px;
     color: white;
 }
 
@@ -152,6 +152,11 @@ body {
     border-radius: 5px;
     background-color: #99080b;
     font-size: 15px;
+}
+
+.footer .footer-contact button:hover {
+    text-decoration: underline;
+    cursor: pointer;
 }
 
 .footer .footer-bottom {

@@ -20,6 +20,13 @@ aside p {
     line-height: 2.0;
 }
 
+.subtitle {
+    text-align: center;
+    font-size: 1.0em;
+    color: #7d7d7d;
+    margin-bottom: 70px;
+}
+
 /* メインビジュアル */
 .main-visual {
     display: block;
@@ -52,13 +59,6 @@ aside p {
     max-width: 900px;
 }
 
-.self-introduction-subheading {
-    text-align: center;
-    font-size: 0.9em;
-    color: #7d7d7d;
-    margin-bottom: 70px;
-}
-
 /* 制作実績 */
 .portfolio {
     text-align: center;
@@ -76,7 +76,6 @@ aside p {
     height: 220px;
     text-align: center;
     padding: 0.5em 1em;
-    /* margin: 2em 0; */
     font-weight: bold;
     border: solid 2px #000000;
     border-radius: 5px;
@@ -121,12 +120,12 @@ aside p {
 }
 
 .xr-word-introduction h3 {
-    font-size: 0.9em;
+    font-size: 1.0em;
     margin-bottom: 5px;
 }
 
 .xr-word-introduction p {
-    font-size: 0.8em;
+    font-size: 0.9em;
 }
 
 .xr-word-introduction-outline {
