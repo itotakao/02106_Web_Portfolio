@@ -49,6 +49,7 @@ aside p {
 .main {
     width: 80%;
     margin: auto;
+    max-width: 900px;
 }
 
 .self-introduction-subheading {
@@ -58,18 +59,58 @@ aside p {
     margin-bottom: 70px;
 }
 
-.self-introduction img {
-    width: 192px;
-    height: 192px;
-}
-
-.self-introduction .self-introduction-description {
-    margin: auto;
+/* 制作実績 */
+.portfolio {
+    text-align: center;
     margin-top: 60px;
 }
 
-.self-introduction img {
+.portfolio h6 {
+    padding: 0;
+    margin: 0;
+}
+
+.portfolio-description {
+    display: inline-block;
+    width: 49.3%;
+    height: 220px;
+    text-align: center;
+    padding: 0.5em 1em;
+    /* margin: 2em 0; */
+    font-weight: bold;
+    border: solid 2px #000000;
+    border-radius: 5px;
+    border-bottom: solid 6px #333;
+    border-radius: 9px;
+    overflow: hidden;
+}
+
+.portfolio-description img{
+    width:  80px;
     margin: auto;
+}
+
+.portfolio-description p{
+    text-align: left;
+}
+
+.portfolio button {
+    display: block;
+    width: 100%;
+    margin-bottom: 50px;
+    position: relative;
+    display: inline-block;
+    font-weight: bold;
+    padding: 0.25em 0.5em;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    background: #000000;
+}
+
+.portfolio button:hover {
+    text-decoration: underline;
+    cursor: pointer;
 }
 
 /* XRワード紹介 */
@@ -138,7 +179,7 @@ aside p {
     height: 150px;
     text-align: center;
     padding: 0.5em 1em;
-    margin: 2em 0;
+    margin: 3px 0;
     font-weight: bold;
     border: solid 2px #000000;
     border-radius: 5px;
@@ -155,51 +196,6 @@ aside p {
     width: auto;
     height: 100px;
     margin: auto;
-}
-
-/* 制作実績 */
-.portfolio {
-    text-align: center;
-    margin-top: 60px;
-}
-
-.portfolio h6 {
-    padding: 0;
-    margin: 0;
-}
-
-.portfolio-description {
-    display: inline-block;
-    width: 198px;
-    height: 300px;
-    text-align: center;
-    padding: 0.5em 1em;
-    margin: 2em 0;
-    font-weight: bold;
-    border: solid 2px #000000;
-    border-radius: 5px;
-    border-bottom: solid 6px #333;
-    border-radius: 9px;
-    overflow: hidden;
-}
-
-.portfolio button {
-    display: block;
-    width: 100%;
-    margin-bottom: 50px;
-    position: relative;
-    display: inline-block;
-    font-weight: bold;
-    padding: 0.25em 0.5em;
-    border-radius: 5px;
-    text-decoration: none;
-    color: white;
-    background: black;
-}
-
-.portfolio button:hover {
-    text-decoration: underline;
-    cursor: pointer;
 }
 
 /* セールポイント */
@@ -226,7 +222,6 @@ aside p {
 
 .sales-point h8 {
     display: block;
-    /* text-align: center; */
     font-size: 1.3em;
     padding: 0 0 5px 0;
 }
@@ -242,6 +237,15 @@ aside p {
         font-size: 2.0em;
         top: 310px;
         left: 60%;
+    }
+
+    .portfolio-description {
+        width: 32.6%;
+        height: 220px;
+    }
+
+    .portfolio-description img{
+        padding:20px 0;
     }
 
     .self-introduction img {
