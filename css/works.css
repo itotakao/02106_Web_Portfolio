@@ -29,6 +29,8 @@
     display: inline;
     width: 18px;
     margin-right: 10px;
+    position: relative;
+    top: 3px;
 }
 
 .skill-details-check{
