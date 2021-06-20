@@ -200,6 +200,12 @@ aside p {
 /* セールポイント */
 .sales-point {
     padding-top: 60px;
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    border: solid 2px #000000;
+    border-radius: 5px;
+    border-bottom: solid 6px #333;
+    border-radius: 9px;
 }
 
 .sales-point h7 {
