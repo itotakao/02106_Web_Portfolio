@@ -63,6 +63,8 @@ aside p {
 .portfolio {
     text-align: center;
     margin-top: 60px;
+    min-width: 310px;
+    margin: auto;
 }
 
 .portfolio h6 {
@@ -72,7 +74,8 @@ aside p {
 
 .portfolio-description {
     display: inline-block;
-    width: 49.3%;
+    /* width: 49.3%; */
+    width: 150px;
     height: 220px;
     text-align: center;
     padding: 0.5em 1em;
@@ -174,7 +177,7 @@ aside p {
 
 .skill-details {
     display: inline-block;
-    width: 49.3%;
+    width: 48%;
     height: 150px;
     text-align: center;
     padding: 0.5em 1em;
@@ -245,7 +248,7 @@ aside p {
     }
 
     .portfolio-description {
-        width: 32.6%;
+        width: 32%;
         height: 220px;
     }
 
@@ -263,7 +266,7 @@ aside p {
     }
 
     .skill .skill-details {
-        width: 32.6%;
+        width: 32.2%;
     }
 
     .sales-point h7 {
