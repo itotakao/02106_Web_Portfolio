@@ -93,7 +93,9 @@ aside p {
 }
 
 .portfolio-description p{
+    display: inline-block;
     text-align: left;
+    font-size: 1.5vh;
 }
 
 .portfolio button {
@@ -254,6 +256,11 @@ aside p {
 
     .portfolio-description img{
         padding:20px 0;
+    }
+
+    .portfolio-description p{
+        text-align: left;
+        font-size: 16px;
     }
 
     .self-introduction img {
