@@ -7,6 +7,10 @@
     margin-top: 70px;
 }
 
+.description-message {
+    text-align: center;
+}
+
 .skills section {
     padding: 0.5em 1em;
     margin: 2em 0;
@@ -25,7 +29,7 @@
     border-radius: 9px;
 }
 
-.skills img{
+.skills img {
     display: inline;
     width: 18px;
     margin-right: 10px;
@@ -33,16 +37,22 @@
     top: 3px;
 }
 
-.skill-details-check{
+.skill-details-check {
     display: none;
 }
 
-.skill-details-label{
+.skill-details-label {
     display: inline;
     text-decoration: underline;
 }
 
-.skill-details-content{
+.skill-details-label:before {
+    font-family: 'FontAwesome';
+    content: "\f103";
+    padding-right: 10px;
+}
+
+.skill-details-content {
     border: 1px solid #333;
     height: 0;
     opacity: 0;
@@ -50,7 +60,7 @@
     visibility: hidden;
 }
 
-.skill-details-check:checked + .skill-details-label + .skill-details-content{
+.skill-details-check:checked+.skill-details-label+.skill-details-content {
     height: auto;
     opacity: 1;
     padding: 10px;
