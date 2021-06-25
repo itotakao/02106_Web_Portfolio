@@ -245,7 +245,7 @@ aside p {
     padding: 0;
 }
 
-@media screen and (min-width: 1050px) {
+@media screen and (min-width: 1400x) {
 
     .sp-right{
         float: initial;
