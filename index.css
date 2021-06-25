@@ -236,7 +236,7 @@ aside p {
     padding: 0;
 }
 
-@media screen and (min-width: 1050px) {
+@media screen and (min-width: 1150px) {
 
     .main-visual p {
         font-size: 2.0em;
