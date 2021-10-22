@@ -102,9 +102,10 @@ aside p {
     font-size: 14px;
 }
 
-.portfolio button {
+button {
     display: block;
     width: 100%;
+    margin-top: 5px;
     margin-bottom: 50px;
     position: relative;
     display: inline-block;
@@ -116,7 +117,7 @@ aside p {
     background: #000000;
 }
 
-.portfolio button:hover {
+button:hover {
     text-decoration: underline;
     cursor: pointer;
 }
